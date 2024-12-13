@@ -1,0 +1,40 @@
+# C-Language
+Programme for C++ language in collage and for practising
+For some basic printing of hello world:-
+#include <iostream>
+using namespace std;
+int main ()
+{
+	cout<<"Hello there all of you !";
+}
+
+For swaping two numbers with a new variabl
+//#include <iostream>
+//using namespace std;
+//int main ()
+//{
+//	int i;
+//	cout<<"Hello there all of you !";
+//	cin>>i;
+//	
+//	cout<<"I= "<<i<<"";
+//}
+#include <iostream>
+using namespace std;
+int swap (int &a, int b)
+{
+    int t;
+    t=a;
+    a=b;
+    b=t;
+}
+int main ()
+{
+    int i,j;
+    cout<<"Enter two the number " ;
+    cin>>i>>j;
+    swap(i,j);
+    cout<<"After swapping the i "<<i<<" and j "<<j<<"  " ;
+    return 0;
+}
+
