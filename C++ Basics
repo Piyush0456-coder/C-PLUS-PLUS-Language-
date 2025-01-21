@@ -38,3 +38,104 @@ int main ()
     return 0;
 }
 
+
+From here are some question solved of the book
+#include <iostream>
+using namespace std;
+int square(int a);
+
+int main ()
+{
+//	write a program to display a pattern given below:
+//	int i,j;
+//	for(i=5; i>=1; i--)
+//	{
+//		for(j=1; j<=i; j++)
+//		{
+//			cout<<i;
+//		}
+//		cout<<"\n";
+//	}
+
+//	A program to print the pyramid of numbers using nested for loop:
+//	 int i,j,no;
+//	cout<<"Enter the number for a pyramid:--";
+//	cin>>no;
+//	for(i=no; i>=1; i--)
+//	{
+//		for(j=1; j<=i; j++)
+//		{
+//			cout<<no;
+//		}
+//		cout<<"\n";
+//	}
+
+//	 a program to calculate the simple interest:
+//	 int si, p,r,t;
+//	 p=1000, r=900, t=2;
+//	 si=p*r*t/100;
+//	 cout<<"Simple interest:"<<si;
+	
+//	a program for converting centigrate to fahrenheit
+//	int temperature,f,c;
+//	cout<<"Enter the temperature:";
+//	cin>>temperature;
+//	//temperature = &c;
+//	
+//	f=(temperature+32)/100;
+//	cout<<f;
+
+// write a program to find the sum of square of n natural numbers:
+	int no,sum=0;
+	cout<<"Enter a number:";
+	cin>>no;
+	while(no>=1)
+	{
+		//cout<<"the square of "<<no<<" is:"<<square(no)<<"\n";
+		sum=sum+square(no);
+		no--;
+	}
+	cout<<"The sum of the square of n number:"<<sum;
+	return 0;
+}
+int square(int a)
+{
+	return a*a;
+}
+
+
+#include <iostream>
+using namespace std;
+//int main ()
+//{
+////	a program to find the greatest number amongst three given numbers by using functions with parameters and return value....
+//	int a,b,c;
+//	cout<<"Enter three number with space:";
+//	cin>>a>>b>>c;
+//	int max_no(int p,int q, int r); //function declaration
+//	
+//	cout<<"The greatest number among them is "<<max_no(a,b,c);
+//	return 0;
+//}
+//int max_no(int p,int q, int r) //function defination
+//{
+//	if(p>q && p>r)
+//	{
+//		return p;
+//	}
+//	else if (q>r && q>p)
+//	{
+//		return q;
+//	}
+//	else
+//	{
+//		return r;
+//	}
+//}
+
+
+
+
+
+
+
